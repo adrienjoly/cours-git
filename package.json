@@ -1,0 +1,16 @@
+{
+  "name": "cours-git",
+  "version": "1.0.0",
+  "scripts": {
+    "start-http": "python -m SimpleHTTPServer",
+    "preinstall": "# brew install Caskroom/cask/calibre",
+    "postinstall": "./node_modules/.bin/gitbook install",
+    "gen-pdf": "node_modules/.bin/gitbook pdf ./ ./_book/cours-git.pdf",
+    "build": "node_modules/.bin/gitbook build",
+    "start": "node_modules/.bin/gitbook serve"
+  },
+  "author": "Adrien Joly",
+  "dependencies": {
+    "gitbook-cli": "2.3.2"
+  }
+}
