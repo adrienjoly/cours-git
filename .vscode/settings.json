@@ -2,5 +2,15 @@
   "markdown.styles": [
     "./.vscode/github-markdown.css"
   ],
-  "cSpell.language": ",fr"
+  "cSpell.language": ",fr",
+  "cSpell.words": [
+    "echo",
+    "eemi",
+    "forker",
+    "forkée",
+    "gitlab",
+    "staging",
+    "status",
+    "uploader"
+  ]
 }
