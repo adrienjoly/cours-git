@@ -26,7 +26,7 @@
 - OpenClassrooms: [Gérez votre code avec Git et GitHub](https://openclassrooms.com/fr/courses/2342361-gerez-votre-code-avec-git-et-github) (videos)
 - OpenClassrooms: [Gérez vos codes source avec Git](https://openclassrooms.com/fr/courses/1233741-gerez-vos-codes-source-avec-git) (tuto)
 - Guide récapitulatif: [git - petit guide - no deep shit!](http://rogerdudler.github.io/git-guide/index.fr.html)
-- [Quel git workflow pour mon projet ? | @nicoespeon](http://www.nicoespeon.com/fr/2013/08/quel-git-workflow-pour-mon-projet/)
+- [Quel git workflow pour mon projet ? par @nicoespeon](http://www.nicoespeon.com/fr/2013/08/quel-git-workflow-pour-mon-projet/)
 - [4 branching workflows for Git – Patrick Porto – Medium](https://medium.com/@patrickporto/4-branching-workflows-for-git-30d0aaee7bf)
 - The GitHub Blog: [Merge conflicts in the classroom](https://blog.github.com/2018-08-22-merge-conflicts-in-the-classroom/)
 
