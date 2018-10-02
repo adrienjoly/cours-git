@@ -2,9 +2,24 @@
 
 # Cours `git`
 
-- Support de cours: <a href="./slides/index.html" target="_blank">Slides</a>
+Ce support de cours a été conçu en 2018 par Adrien Joly, pour initier les étudiants de l'EEMI à l'utilisation de l'outil `git`.
 
-## Cours 1 (2h)
+## Objectifs
+
+- Comprendre l’intérêt de `git` et GitHub
+- Découvrir la philosophie Open Source, et les principes de collaboration employés sur ces projets
+- Maîtriser les opérations et commandes de GIT de base: init, clone, checkout, merge, pull, push
+- Comprendre le concept de conflit, et savoir le résoudre
+- Application: forker un projet Github Pages fourni, y contribuer, puis proposer un Pull Request
+
+## Compétences requises
+
+- Savoir utiliser le terminal/shell
+- Lire documentation et exemples en anglais sur internet
+
+## Programme de la première partie (2h)
+
+📌 Support de cours: <a href="./slides/index.html" target="_blank">Slides</a>
 
 - Cours: Introduction à git:
   - problèmes et solutions
@@ -16,7 +31,7 @@
   - Visualisation de l'historique dans le terminal
   - Éviter d'avoir à taper son mot de passe Gitlab à chaque fois
 
-## Cours 2 (2h)
+## Programme de la deuxième partie (2h)
 
 - TP: Régler un conflit de fusion
 - TP: Contribuer à un projet open-source sur GitHub
@@ -40,6 +55,10 @@
 - [Quel git workflow pour mon projet ? par @nicoespeon](http://www.nicoespeon.com/fr/2013/08/quel-git-workflow-pour-mon-projet/)
 - [4 branching workflows for Git – Patrick Porto – Medium](https://medium.com/@patrickporto/4-branching-workflows-for-git-30d0aaee7bf)
 - The GitHub Blog: [Merge conflicts in the classroom](https://blog.github.com/2018-08-22-merge-conflicts-in-the-classroom/)
+- Exemples de dépôts open source sur GitHub:
+  - [Linux](https://github.com/torvalds/linux) (système d'exploitation)
+  - [Frogatto & Friends](https://github.com/frogatto/frogatto) (jeu vidéo)
+  - [Le Code Civil Français](https://github.com/steeve/france.code-civil)
 
 ## Ressources annexes au cours
 
