@@ -2,14 +2,24 @@
 
 # Cours `git`
 
-## Présentation
+- Support de cours: <a href="./slides/index.html" target="_blank">Slides</a>
 
-* <a href="./slides/index.html" target="_blank">Slides</a>
+## Cours 1 (2h)
 
-## Compétences pratiques (tutos)
+- Cours: Introduction à git:
+  - problèmes et solutions
+  - terminologie, flot, commandes de base
+- TP: [Créer un dépôt `git` sur le serveur `gitlab` de l'EEMI](tutos/creer-depot-gitlab-eemi.md)
+- TP: [Collaborer sur un dépôt `gitlab`](tutos/collaborer-sur-un-depot-gitlab.md)
+- Pro tips:
+  - Harmoniser l'encodage des fin de lignes
+  - Visualisation de l'historique dans le terminal
+  - Éviter d'avoir à taper son mot de passe Gitlab à chaque fois
 
-* [Créer un dépôt `git` sur le serveur `gitlab` de l'EEMI](tutos/creer-depot-gitlab-eemi.md)
-* [Collaborer sur un dépôt `gitlab`](tutos/collaborer-sur-un-depot-gitlab.md)
+## Cours 2 (2h)
+
+- TP: Régler un conflit de fusion
+- TP: Contribuer à un projet open-source sur GitHub
 
 ## Aller plus loin avec `git` et le monde open source
 

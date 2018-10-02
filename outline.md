@@ -32,14 +32,14 @@
       - `git commit`: empaqueter les mises à jour de l'index
       - `git push`: envoyer les commits dans le dépôt distant
 
-- TP: Créer un dépôt git sur le serveur gitlab de l’EEMI
+- TP: [Créer un dépôt `git` sur le serveur `gitlab` de l'EEMI](tutos/creer-depot-gitlab-eemi.md)
 
-- TP: Collaborer sur un dépôt gitlab
+- TP: [Collaborer sur un dépôt `gitlab`](tutos/collaborer-sur-un-depot-gitlab.md)
 
 - Pro tips:
-  - Activer `autocrlf` / `safecrlf` avec git config
-  - Visualisation de l'historique: `git lol` / `git lola` (http://blog.kfish.org/2010/04/git-lola.html)
-  - éviter d'avoir à taper son mot de passe Gitlab à chaque fois: [Stockage des identifiants](https://git-scm.com/book/fr/v2/Utilitaires-Git-Stockage-des-identifiants), ou [Configure SSK key](https://docs.gitlab.com/ee/university/training/topics/env_setup.html#configure-ssh-key), ou encore [GitLab and SSH keys](https://docs.gitlab.com/ee/ssh/) (plus détaillé)
+  - Harmoniser l'encodage des fin de lignes (`autocrlf` / `safecrlf`) avec git config, cf [Preparation](https://githowto.com/setup) ou [Dealing with line endings](https://help.github.com/articles/dealing-with-line-endings/)
+  - Visualisation de l'historique dans le terminal: [`git git lola`](http://blog.kfish.org/2010/04/git-lola.html)
+  - Éviter d'avoir à taper son mot de passe Gitlab à chaque fois: [Stockage des identifiants](https://git-scm.com/book/fr/v2/Utilitaires-Git-Stockage-des-identifiants), ou [Configure SSK key](https://docs.gitlab.com/ee/university/training/topics/env_setup.html#configure-ssh-key), ou encore [GitLab and SSH keys](https://docs.gitlab.com/ee/ssh/) (plus détaillé)
 
 ## Cours 2 (2h)
 
