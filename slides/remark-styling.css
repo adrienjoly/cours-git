@@ -18,9 +18,25 @@ li {
   line-height: 2;
 }
 
+.remark-slide-number {
+  display: none;
+}
+
 .footnote {
   position: absolute;
   bottom: 3em;
+}
+
+.bottom-left {
+  position: fixed;
+  bottom: 10px;
+  left: 60px;
+}
+
+.bottom-right {
+  position: fixed;
+  bottom: 50px;
+  right: 60px;
 }
 
 .remark-code, .remark-inline-code {
@@ -36,8 +52,13 @@ li {
 }
 
 .inverse h1, .inverse h2 {
+  display: inline;
+  overflow: auto; /* try to force one h1 and h2 per line */
+  clear: both; /* try to force one h1 and h2 per line */
+  background: #272822;
   color: #f3f3f3;
-  line-height: 0.8em;
+  padding: 10px 20px;
+  padding-top: 0;
 }
 
 /* my customizations */
@@ -45,6 +66,12 @@ li {
 .full-bg-image {
   background-size: cover !important;
   background-position: 50% 50% !important;
+}
+
+.fit-bg-image {
+  background-size: contain !important;
+  background-position: 50% 50% !important;
+  background-repeat: no-repeat !important;
 }
 
 .left-bg-image {
@@ -61,6 +88,10 @@ li {
 
 .absolute {
   position: absolute;
+}
+
+.col {
+  display: table-cell;
 }
 
 .col-25pct {
@@ -86,6 +117,21 @@ li {
 
 .center {
   text-align: center;
+}
+
+.center ul,
+.center ol,
+.center pre {
+  display: table;
+  margin: 0 auto;
+  line-height: 1.5em;
+}
+
+.center li,
+.center pre > code {
+  float: left;
+  clear: left;
+  text-align: left;
 }
 
 .center-block {
@@ -130,6 +176,10 @@ li {
   border-radius: 15px;
 }
 
+.red-bg {
+  background: rgba(255,0,0,0.25);
+}
+
 .yellow-bg {
   background: rgba(255,255,0,0.25);
 }
@@ -155,4 +205,26 @@ li {
 
 .blurred-bg {
   background-color: rgba(255,255,255,0.5);
+}
+
+.dbl-size * {
+  font-size: 2rem;  
+}
+
+.dbl-line * {
+  line-height: 1.5em;
+}
+
+.quote p {
+  font-size: 2rem;
+  font-style: italic;
+  line-height: 1.5em;
+}
+
+.quote p::before {
+  content: '« ';
+}
+
+.quote p::after {
+  content: ' »';
 }
