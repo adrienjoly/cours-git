@@ -4,6 +4,8 @@
 
 > Note: "dépôt" se traduit "repository", en Anglais.
 
+1. Vérifier dans le terminal que `git` est bien installé: `$ git version`, sinon le télécharger et l'installer depuis https://git-scm.com/downloads
+1. Vérifier dans le terminal que vous êtes identifié: `$ git config user.email`, sinon suivez les instructions de la section "Votre identité" de [Paramétrage à la première utilisation de Git](https://git-scm.com/book/fr/v2/D%C3%A9marrage-rapide-Param%C3%A9trage-%C3%A0-la-premi%C3%A8re-utilisation-de-Git)
 1. Ouvrir l'interface `gitlab` de l'EEMI: [gitlab.eemi.tech](https://gitlab.eemi.tech/)
 1. Cliquer sur "Nouveau projet"
 1. Donner un nom de projet concis, en minuscules, et séparé par des tirets
