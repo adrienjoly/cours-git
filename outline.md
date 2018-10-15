@@ -68,3 +68,4 @@
   - alternative au GitHub flow: git flow
     - http://danielkummer.github.io/git-flow-cheatsheet/index.fr_FR.html
     - video: https://www.grafikart.fr/formations/git/git-flow
+  - ssl: https://help.github.com/articles/set-up-git/#next-steps-authenticating-with-github-from-git
