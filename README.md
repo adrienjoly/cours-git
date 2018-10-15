@@ -33,7 +33,7 @@ Ce support de cours a été conçu en 2018 par Adrien Joly, pour initier les ét
 
 ## Programme de la deuxième partie (2h)
 
-- TP: Régler un conflit de fusion
+- TP: [Résoudre un conflit de fusion](tutos/conflit-de-fusion.md)
 - TP: Contribuer à un projet open-source sur GitHub
 
 ## Aller plus loin avec `git` et le monde open source
