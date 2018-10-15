@@ -44,22 +44,30 @@
 ## Cours 2 (2h)
 
 - Cours: Branches et résolution de conflits de fusion (*merge conflict*)
-  - Exemple de conflit
-  - fast-forward vs 3-way: https://dev.to/neshaz/how-to-use-git-merge-the-correctway-25pd
-  - (cf https://blog.github.com/2018-08-22-merge-conflicts-in-the-classroom/)
-
-- TP: Régler un conflit de fusion
-
-- Cours: Contribuer à un projet open-source sur GitHub
-  - Workflow: GitHub Flow
-    - pull request
-  - Dérivation (fork)
+  - Branches `git`
     - `git log`
     - `git branch`
     - `git checkout`
     - `git diff`
+  - Exemple de conflit
+  - fast-forward vs 3-way: https://dev.to/neshaz/how-to-use-git-merge-the-correctway-25pd
+  - (cf https://blog.github.com/2018-08-22-merge-conflicts-in-the-classroom/)
+
+- TP: [Résoudre un conflit de fusion](tutos/conflit-de-fusion.md)
+
+- Cours: Contribuer à un projet open-source sur GitHub
+  - Exemples de projets Open-Source
+  - Workflow: GitHub Flow
+    - *issues*, *pull request*, *review*
+  - Dérivation (fork)
+  - Licences & étiquette
+  - GitHub pages / GitLab pages
 
 - TP: Contribuer à un projet open-source sur GitHub
+  - https://www.firsttimersonly.com/
+  - https://opensource.guide/fr/how-to-contribute/
+
+- Évaluation: ajouter sa photo et bio sur https://adrienjoly.com/trombi-eemi-2018-1a/
 
 - Pro tips:
   - `git rebase`
