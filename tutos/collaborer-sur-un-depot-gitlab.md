@@ -14,6 +14,10 @@ Dans ce TP, nous allons chacun:
 - donner les droits à un autre étudiant d'ajouter des commits dans un dépôt personnel;
 - et ajouter des commits dans le dépôt personnel d'un autre étudiant, après qu'il nous ait donné les droits nécessaires.
 
+> Note: Contrairement au TP précédent, les commandes ne seront pas fournies de manière complète. À vous de les compléter en vous inspirant de ce que vous aviez fait au TP précédent.
+
+> Note: Avant de faire un git clone, pensez à sortir de votre dossier en cours, à l'aide de la commande `$ cd ..`
+
 ### Procédure pour ajouter un développeur dans une équipe Gitlab:
 
 1. Depuis la barre latérale de la page du dépôt, cliquer sur "Paramètres"
@@ -22,9 +26,12 @@ Dans ce TP, nous allons chacun:
 1. Sélectionner le rôle (ou niveau de permissions) à donner à ce(s) développeur(s)
 1. Vérifier que le(s) développeur(s) est/sont bien capables d'ajouter et pusher un commit dans la branche de travail du dépôt (ex: `master`)
 
+Note: pour qu'un développeur aie le droit de pusher des commits dans votre dépôt, il faut lui donner le rôle de "Maintainer". Le rôle "Developer" ne suffit pas.
+
 ### Procédure pour ajouter un commit dans le dépôt d'un autre développeur
 
 1. Utiliser `git clone` pour importer le dépôt de l'autre étudiant
 1. S'assurer qu'on a bien les dernières mises à jour (`git pull`)
 1. Créer un nouveau fichier dans le dépôt local, puis l'ajouter à l'index (`git add`)
 1. Créer un commit contenant ce fichier (`git commit`) puis l'envoyer sur le dépôt de l'autre étudiant (`git pull`)
+1. Dans l'interface web de GitLab, aller sur le projet de votre camarade, puis cliquez sur "commits" pour vérifier que votre commit apparaît bien dans la liste.
