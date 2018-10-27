@@ -1,4 +1,4 @@
-## Créer un dépôt `git` sur le serveur `gitlab` de l'EEMI
+## Créer un dépôt `git` sur le serveur GitLab de l'EEMI
 
 Dans ce tuto, nous allons:
 
@@ -24,19 +24,22 @@ Le but est de retrouver ce fichier dans la page du dépôt sur GitLab, ainsi que
 
 À suivre une par une:
 
-1. Vérifier dans le terminal que `git` est bien installé: `$ git version`, sinon le télécharger et l'installer depuis https://git-scm.com/downloads puis redémarrer votre terminal
-1. Vérifier dans le terminal que vous êtes identifié: `$ git config user.email` doit afficher votre adresse email EEMI, sinon suivez les instructions de la section "Votre identité" de [Paramétrage à la première utilisation de Git](https://git-scm.com/book/fr/v2/D%C3%A9marrage-rapide-Param%C3%A9trage-%C3%A0-la-premi%C3%A8re-utilisation-de-Git)
+1. Vérifier dans le terminal que `git` est bien installé: `$ git version`. Si ce n'est pas le cas, installez-le en suivant les recommandations de votre système d'exploitation où en le téléchargeant depuis [git-scm.com/downloads](https://git-scm.com/downloads), puis redémarrez votre terminal.
+1. Vérifier dans le terminal que vous êtes identifié(e): `$ git config user.email` doit afficher votre adresse email EEMI. Si ce n'est pas le cas, suivez les instructions de la section "Votre identité" de [Paramétrage à la première utilisation de Git](https://git-scm.com/book/fr/v2/D%C3%A9marrage-rapide-Param%C3%A9trage-%C3%A0-la-premi%C3%A8re-utilisation-de-Git).
 1. Ouvrir l'interface web GitLab de l'EEMI: [gitlab.eemi.tech](https://gitlab.eemi.tech/)
 1. Si vous ne l'avez pas encore fait, ajoutez un mot de passe à votre compte GitLab, depuis la page de paramètres de votre compte GitLab
-1. Toujours depuis de l'interface de GitLab, cliquer sur "Nouveau projet"
-1. Le nom du projet sera aussi le nom du dépôt correspondant => donner un nom de projet concis, en minuscules, et séparé par des tirets
-1. Choisissez "public", afin que le dépôt soit accessible en lecture aux autres étudiants
-1. Copier l'adresse HTTPS fournie dans la page du dépôt
-1. Dans le terminal: `$ git clone adresse_https_du_dépôt` pour télécharger le dépôt sur votre disque-dur, puis `$ cd nom_du_dépôt` pour entrer dans le dossier de ce dépôt
-1. Premier commit:
-    - `$ echo "Bonjour" >README.md` pour créer `README.md` (documentation du projet)
+1. Toujours depuis de l'interface de GitLab, créez un dépôt:
+   - Cliquer sur "Nouveau projet"
+   - Le nom du projet sera aussi le nom du dépôt correspondant => donner un nom de projet concis, en minuscules, et séparé par des tirets
+   - Choisissez "public", afin que le dépôt soit accessible en lecture aux autres étudiants
+   - Copier l'adresse HTTPS fournie dans la page du dépôt
+1. Dans le terminal:
+   - Téléchargez le dépôt sur votre disque-dur: `$ git clone adresse_https_du_dépôt`
+   - puis entrez dans le dossier de ce dépôt: `$ cd nom_du_dépôt`
+1. Créer un commit:
+    - `$ echo "Bonjour" >README.md` pour créer un fichier `README.md` contenant le texte "Bonjour"
     - `$ git status` (optionnel) pour constater qu'un fichier a été créé mais pas encore ajouté dans le dépôt
-    - `$ git add README.md ` pour ajouter le fichier `README.md` dans l'espace de staging
+    - `$ git add README.md` pour ajouter le fichier `README.md` dans l'espace de staging (index)
     - `$ git status` (optionnel) pour afficher le contenu actuel de l'espace de staging (index)
     - `$ git commit -m "ajout du fichier README.md"` pour créer un commit à partir de l'espace de staging. Notez que le texte fourni entre guillemets est libre. Similairement à l'objet d'un email, ce message permet d'expliquer de manière concise quelles modifications sont apportées au dépôt par votre commit.
     - `$ git status` (optionnel) pour constater que l'espace de staging a été réinitialisé et qu'aucun fichier n'a été modifié depuis votre commit
