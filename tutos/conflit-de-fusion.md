@@ -1,12 +1,14 @@
 ## Résoudre un conflit de fusion
 
+Un conflit de fusion intervient lorsque l'on tente de fusionner deux branches qui modifient la même partie d'un même fichier. Dans ce cas, `git` va intégrer les deux versions dans le même fichier puis laisser le développeur décider du contenu final de cette partie.
+
 L'objectif de ce tuto est d'apprendre à résoudre un conflit de fusion. (*merge conflict*)
 
-Pour rappel: un conflit de fusion intervient lorsque l'on tente de fusionner deux branches qui modifient la même partie d'un même fichier. Dans ce cas, `git` va intégrer les deux versions dans le même fichier puis laisser le développeur décider du contenu final de cette partie.
+Pour cela, nous allons devoir commencer par en causer un !
 
-### Procédure pour créer un conflit de fusion
+### Procédure pour causer un conflit de fusion
 
-Avant de régler un conflit de fusion, nous allons devoir en causer un !
+Étapes à suivre, une par une:
 
 1. Créer un nouveau dépôt sur GitLab
 2. Cloner ce dépôt localement avec `git clone`
@@ -59,4 +61,6 @@ On branch master
 nothing to commit, working tree clean
 ```
 
-Bonus: supprimer les branches `branche1` et `branche2`, non seulement dans votre dépôt local, mais aussi dans le dépôt distant associé (sur GitLab).
+### Bonus
+
+- supprimer les branches `branche1` et `branche2`, non seulement dans votre dépôt local, mais aussi dans le dépôt distant associé (sur GitLab).
