@@ -1,10 +1,8 @@
 ![Logo git](logo.png)
 
-# Cours `git`
-
 Ce support de cours a été conçu en 2018 par Adrien Joly, pour initier les étudiants de l'EEMI à l'utilisation de l'outil `git`.
 
-## Objectifs
+#### Objectifs
 
 - Comprendre l’intérêt de `git` et GitHub
 - Découvrir la philosophie Open Source, et les principes de collaboration employés sur ces projets
@@ -12,31 +10,41 @@ Ce support de cours a été conçu en 2018 par Adrien Joly, pour initier les ét
 - Comprendre le concept de conflit, et savoir le résoudre
 - Application: forker un projet Github Pages fourni, y contribuer, puis proposer un Pull Request
 
-## Compétences requises
+#### Compétences requises
 
 - Savoir utiliser le terminal/shell
 - Lire documentation et exemples en anglais sur internet
 
-## Programme de la première partie (2h)
+## Première partie (2h)
 
-📌 Support de cours: <a href="./slides/index.html" target="_blank">Slides</a>
+📌 Support de cours: <a href="./slides/index.html" target="_blank">Slides</a> (presser P pour afficher les notes)
+
+#### Programme
 
 - Cours: Introduction à git:
   - problèmes et solutions
   - terminologie, flot, commandes de base
-- TP: [Créer un dépôt `git` sur le serveur `gitlab` de l'EEMI](tutos/creer-depot-gitlab-eemi.md)
-- TP: [Collaborer sur un dépôt `gitlab`](tutos/collaborer-sur-un-depot-gitlab.md)
-- Pro tips:
-  - Harmoniser l'encodage des fin de lignes
-  - Visualisation de l'historique dans le terminal
-  - Éviter d'avoir à taper son mot de passe Gitlab à chaque fois
+- TD 1.1: [Créer un dépôt `git` sur le serveur GitLab de l'EEMI](tutos/creer-depot-gitlab-eemi.md)
+- TD 1.2: [Collaborer sur un dépôt GitLab](tutos/collaborer-sur-un-depot-gitlab.md)
 
-## Programme de la deuxième partie (2h)
+#### *Pro tips*
 
-- TP: [Résoudre un conflit de fusion](tutos/conflit-de-fusion.md)
-- TP: Contribuer à un projet open-source sur GitHub
+- Harmoniser l'encodage des fin de lignes
+- Visualisation de l'historique dans le terminal
+- Éviter d'avoir à taper son mot de passe Gitlab à chaque fois
 
-## Aller plus loin avec `git` et le monde open source
+## Deuxième partie (2h)
+
+#### Programme
+
+- TD 2.1: [Résoudre un conflit de fusion](tutos/conflit-de-fusion.md)
+- TD 2.2: Contribuer à un projet open-source sur GitHub
+
+## Au delà du cours
+
+#### Pistes
+
+Pour aller plus loin avec `git` et le monde open source:
 
 * Gestion de tickets (*issues*)
 * Tags et gestion de versions
@@ -45,7 +53,7 @@ Ce support de cours a été conçu en 2018 par Adrien Joly, pour initier les ét
 * Survol des licences open source
 * Étiquette dans projets open-source (bonnes pratiques de communication)
 
-## Ressources
+#### Ressources
 
 - Exerciseur interactif (pour pratiquer): [Apprenez Git Branching](https://learngitbranching.js.org/)
 - Git: [Rudiments de Git](https://git-scm.com/book/fr/v1/D%C3%A9marrage-rapide-Rudiments-de-Git)
@@ -60,6 +68,6 @@ Ce support de cours a été conçu en 2018 par Adrien Joly, pour initier les ét
   - [Frogatto & Friends](https://github.com/frogatto/frogatto) (jeu vidéo)
   - [Le Code Civil Français](https://github.com/steeve/france.code-civil)
 
-## Ressources annexes au cours
+#### Ressources annexes au cours
 
 - [Apprendre à apprendre: deux modes d’apprentissage](http://www.internetactu.net/2015/09/08/apprendre-a-apprendre-14-deux-modes-dapprentissage/)
