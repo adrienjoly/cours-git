@@ -1,7 +1,5 @@
 ## Collaborer sur un dépôt `gitlab`
 
-L'objectif de ce tuto est d'ajouter un fichier dans le dépôt d'un autre étudiant.
-
 Par défaut seul le créateur d'un dépôt peut y ajouter des commits.
 
 Si un autre développeur souhaite contribuer au dépôt, il existe deux manières de procéder:
@@ -10,13 +8,21 @@ Si un autre développeur souhaite contribuer au dépôt, il existe deux manière
 
 Nous découvrirons les *pull requests* dans le TP suivant.
 
-Dans ce TP, nous allons chacun:
+### Objectif et programme
+
+L'objectif de ce tuto est d'ajouter un fichier dans le dépôt d'un autre étudiant.
+
+Dans ce tuto, nous allons chacun:
+
 - donner les droits à un autre étudiant d'ajouter des commits dans un dépôt personnel;
 - et ajouter des commits dans le dépôt personnel d'un autre étudiant, après qu'il nous ait donné les droits nécessaires.
 
-> Note: Contrairement au TP précédent, les commandes ne seront pas fournies de manière complète. À vous de les compléter en vous inspirant de ce que vous aviez fait au TP précédent.
+### Notes importantes
 
-> Note: Avant de faire un git clone, pensez à sortir de votre dossier en cours, à l'aide de la commande `$ cd ..`
+À lire avant de commencer:
+
+- Contrairement au TD précédent, les commandes `git` ne seront pas fournies de manière complète. À vous de les compléter en vous inspirant de ce que vous aviez fait au TD précédent.
+- Avant de faire un `git clone`, pensez à sortir de votre dossier en cours, à l'aide de la commande `$ cd ..`
 
 ### Procédure pour ajouter un développeur dans une équipe Gitlab:
 
