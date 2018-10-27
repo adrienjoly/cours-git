@@ -38,7 +38,15 @@ Ce support de cours a été conçu en 2018 par Adrien Joly, pour initier les ét
 #### Programme
 
 - TD 2.1: [Résoudre un conflit de fusion](tutos/conflit-de-fusion.md)
-- TD 2.2: Contribuer à un projet open-source sur GitHub
+- TD 2.2: [Contribuer à un projet open-source sur GitHub](tutos/contribution-open-source.md)
+
+## Évaluation
+
+Chaque étudiant(e) sera évalué(e) et noté(e) sur:
+- l'existence d'un dépôt comprenant un commit de sa création + d'un(e) autre étudiant(e) de 1A, sur son profil GitLab
+- l'envoi d'une demande de fusion confirmée au [trombinoscope open source sur GitHub](https://github.com/eemi-aj/trombi), en utilisant son adresse email EEMI
+
+... en respectant les consignes fournies.
 
 ## Au delà du cours
 
