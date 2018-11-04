@@ -245,3 +245,14 @@ class: dbl-size, center, middle
 
 # Exercice à rendre
 ## [Contribuer à un projet open source sur GitHub](../tutos/contribution-open-source.md)
+
+---
+class: dbl-size, center, middle
+
+# Merci pour votre attention ! 🙌
+
+## [adrienjoly.com/now](https://adrienjoly.com/now)
+## [twitter.com/adrienjoly](https://twitter.com/adrienjoly)
+## [github.com/adrienjoly](https://github.com/adrienjoly)
+
+Conseils: carrière de dév / startups / side projects / stages...
