@@ -10,8 +10,9 @@ L'objectif de cet exercice est d'apporter votre contribution à un projet Open S
 - Pour que votre contribution vous rapporte des points, votre compte GitHub doit être à votre nom et doit être rattaché à votre adresse email EEMI.
 - Vous serez noté(e) sur la base de la demande de fusion (*pull request*) que vous aurez soumise à ce projet GitHub, le bon respect des consignes de cet exercice, et la qualité des échanges qui auront éventuellement lieu au sujet de la demande de fusion.
 - La demande de fusion doit être émise par votre compte GitHub personnel.
-- Le(s) commit(s) contenu(s) dans votre demande de fusion doit seulement ajouter une ligne dans le tableau, contenant votre prénom, nom, photo (ou avatar) et une courte présentation de vous-même.
-- Votre demande de fusion ne doit pas modifier le reste du document, et ne doit pas causer d'erreur de validité sur le code HTML de la page dans laquelle elle sera intégrée. (cf [Validateur HTML du W3C](https://validator.w3.org/#validate_by_input))
+- Le ou les commits contenus dans votre demande de fusion doivent seulement ajouter une ligne dans le tableau, contenant votre prénom, nom, photo (ou avatar) et une courte présentation de vous-même. (cf l'exemple fourni)
+- Votre demande de fusion ne doit pas modifier le reste du document, et ne doit pas causer d'erreur de validation sur le code HTML de la page dans laquelle elle sera intégrée. (cf [Validateur HTML du W3C](https://validator.w3.org/#validate_by_input))
+- Dans la description de votre demande de fusion, vous devrez expliquer précisément comment vous vous y êtes pris: elle devra au minimum inclure les commandes `git` complètes que vous avez du taper dans votre terminal pour cloner le dépôt et y proposer votre contribution.
 - Comme dans tout projet open source, vos contributions et discussions seront publiques => faites preuve de professionnalisme, de respect et de responsabilité. Tout contenu invalide, mal orthographié, irrespectueux ou illégal causera une pénalité, voire des poursuites.
 - Votre demande de fusion devra être prête à être fusionnée avant le Vendredi 16 Novembre, minuit. Tout retard causera une pénalité, voire une note nulle.
 
