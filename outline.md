@@ -49,7 +49,7 @@
     - `git branch`
     - `git checkout`
     - `git diff`
-  - Exemple de conflit
+    - `git merge`
   - fast-forward vs 3-way: https://dev.to/neshaz/how-to-use-git-merge-the-correctway-25pd
   - (cf https://blog.github.com/2018-08-22-merge-conflicts-in-the-classroom/)
 

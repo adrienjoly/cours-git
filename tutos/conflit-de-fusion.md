@@ -54,6 +54,10 @@ Pour résoudre ce conflit, il va falloir:
 3. éditer le fichier pour ne conserver que la version finale souhaitée,
 4. puis créer un commit.
 
+> Au moment du commit:
+> - si vous vous retrouvez dans l'éditeur `vi`, tapez `:wq` pour quitter en sauvegardant le fichier;
+> - si vous vous retrouvez dans l'éditeur `nano`, pressez `Ctrl-X` pour quitter.
+
 Après la résolution du conflit de fusion, `git status` devrait répondre ceci:
 
 ```

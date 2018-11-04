@@ -32,8 +32,15 @@ class: dbl-size
 # Programme - Partie 2
 
 - Cours: collaboration avec git
-- TP: Régler un conflit de fusion
-- TP: Contribuer à un projet open source sur GitHub
+- TP: [Régler un conflit de fusion](../tutos/conflit-de-fusion.md)
+- TP: [Contribuer à un projet open source sur GitHub](../tutos/contribution-open-source.md)
+
+
+---
+class: dbl-size, center, middle
+
+![Logo git](../logo.png)
+# Partie 1/2
 
 ---
 class: dbl-size
@@ -141,3 +148,100 @@ class: dbl-size
   - [Stockage des identifiants](https://git-scm.com/book/fr/v2/Utilitaires-Git-Stockage-des-identifiants),
   - ou [Configure SSK key](https://docs.gitlab.com/ee/university/training/topics/env_setup.html#configure-ssh-key),
   - ou encore [GitLab and SSH keys](https://docs.gitlab.com/ee/ssh/) (plus détaillé)
+
+---
+class: dbl-size, center, middle
+
+![Logo git](../logo.png)
+# Partie 2/2
+
+- Régler un conflit de fusion
+- Contribuer à un projet open source sur GitHub
+
+---
+class: dbl-size
+# Commandes git 2/2
+
+- `git log`
+- `git branch`
+- `git checkout`
+- `git diff`
+- `git merge`
+
+???
+
+- `git log`: afficher l'historique / les commits de la branche
+- `git branch`: afficher les branches du dépôt local
+- `git checkout`: se placer sur une autre branche / créer une branche
+- `git diff`: comparer deux branches (ou commits)
+- `git merge`: fusionner une branche dans une autre
+
+---
+class: dbl-size
+# Conflit de fusion
+
+.center[![git master branches](./img/master-and-branches.png)]
+
+???
+
+Un conflit intervient lorsque la même partie d'un même fichier a été modifiée par deux branches en cours de fusion.
+
+=> Il faut aider `git` à résoudre ce conflit, en décidant quelle doit contenir la version finale du fichier.
+
+---
+class: dbl-size, center, middle
+
+# Exercice
+## [Conflit de fusion](../tutos/conflit-de-fusion.md)
+
+---
+class: dbl-size
+# Découverte des projets Open Source
+
+- But: Contribuer à un projet sur GitHub
+- Licences
+- Exemples de projets
+- Workflow de collaboration: GitHub Flow
+
+---
+class: dbl-size
+# Licences
+
+.center[![licenses](./img/licenses.jpg)]
+
+---
+class: dbl-size
+# Exemples
+
+- [github.com/torvalds/linux](https://github.com/torvalds/linux)
+- [github.com/chromium/chromium](https://github.com/chromium/chromium)
+- [github.com/Microsoft/vscode](https://github.com/Microsoft/vscode)
+- [github.com/steeve/france.code-civil](https://github.com/steeve/france.code-civil)
+- [github.com/explore](https://github.com/explore)
+
+---
+class: dbl-size
+# GitHub Flow
+
+.wide[![github flow](./img/github-flow.png)]
+
+---
+class: dbl-size
+# GitHub Flow
+
+.wide[![github flow](./img/github-flow-branch.png)]
+
+---
+class: dbl-size
+# Collaboration autour du GitHub Flow
+
+- *issues* = tâches / bugs
+- *fork* = dérivation
+- *pull request* = proposition
+- *peer review* = discussion
+
+---
+class: dbl-size, center, middle
+
+# Exercice à rendre
+## [Contribuer à un projet open source sur GitHub](../tutos/contribution-open-source.md)
