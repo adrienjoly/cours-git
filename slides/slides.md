@@ -32,8 +32,8 @@ class: dbl-size
 # Programme - Partie 2
 
 - Cours: collaboration avec git
-- TP: [Régler un conflit de fusion](../tutos/conflit-de-fusion.md)
-- TP: [Contribuer à un projet open source sur GitHub](../tutos/contribution-open-source.md)
+- TP: [Régler un conflit de fusion](../tutos/conflit-de-fusion)
+- TP: [Contribuer à un projet open source sur GitHub](../tutos/contribution-open-source)
 
 
 ---
@@ -192,7 +192,7 @@ Un conflit intervient lorsque la même partie d'un même fichier a été modifi�
 class: dbl-size, center, middle
 
 # Exercice
-## [Conflit de fusion](../tutos/conflit-de-fusion.md)
+## [Conflit de fusion](../tutos/conflit-de-fusion)
 
 ---
 class: dbl-size
@@ -244,7 +244,7 @@ class: dbl-size
 class: dbl-size, center, middle
 
 # Exercice à rendre
-## [Contribuer à un projet open source sur GitHub](../tutos/contribution-open-source.md)
+## [Contribuer à un projet open source sur GitHub](../tutos/contribution-open-source)
 
 ---
 class: dbl-size, center, middle
