@@ -36,7 +36,7 @@ Le but est de retrouver ce fichier dans la page du dépôt sur GitLab, ainsi que
    - Choisissez "public", afin que le dépôt soit accessible en lecture aux autres étudiants
    - Copier l'adresse HTTPS fournie dans la page du dépôt
 1. Dans le terminal:
-   - Téléchargez le dépôt sur votre disque-dur: `$ git clone <url>` (remplacer `<url>` par l'adresse HTTPS de votre dépôt)
+   - Téléchargez le dépôt sur votre disque-dur: `$ git clone <url>` (remplacer `<url>` par l'adresse HTTPS de votre dépôt, celle qui finit par `.git`)
    - puis entrez dans le dossier de ce dépôt: `$ cd nom_du_dépôt`
 1. Créer un commit:
     - `$ echo "Bonjour" >README.md` pour créer un fichier `README.md` contenant le texte "Bonjour"
