@@ -14,7 +14,9 @@ Le but est de retrouver ce fichier dans la page du dépôt sur GitLab, ainsi que
 À lire avant de commencer:
 
 - À savoir: "dépôt" se traduit "repository", en Anglais.
-- Ce tuto nécessite l'utilisation d'un terminal (aussi appelé "shell", "console" ou "invite de commandes"). Si vous êtes sous macOS ou linux, il suffit d'utiliser le terminal fourni. Si vous êtes sous Windows, utilisez Ubuntu (cf [procédure d'installation](https://docs.microsoft.com/fr-fr/windows/wsl/install-win10)) de préférence. Sinon vous pouvez essayez avec "git bash" ou "PowerShell", mais vous risquez de rencontrer des problèmes.
+- Ce tuto nécessite l'utilisation d'un terminal (aussi appelé "shell", "console" ou "invite de commandes").
+  - Si vous êtes sous macOS ou linux: il suffit d'utiliser le terminal fourni. Si macOS vous propose d'installer "XCode Command Line Tools", acceptez. Vous aurez peut-être besoin de redémarrer ensuite votre terminal.
+  - Si vous êtes sous Windows, utilisez Ubuntu (cf [procédure d'installation](https://docs.microsoft.com/fr-fr/windows/wsl/install-win10)) de préférence. Sinon, utilisez [Cmder](https://cmder.net/).
 - Le signe dollar (`$`) permet d'indiquer que la commande qui suit sera à saisir dans le terminal. Pour que la commande fonctionne, il ne faut pas copier le `$` dans le terminal, seulement la commande qui suit.
 - Après chaque commande tapée dans le terminal, pensez à lire et comprendre la réponse fournie avant de passer à l'étape suivante. Dans certains cas, cette réponse vous informera d'une erreur et vous invitera donc à essayer à nouveau.
 - Certaines commandes ne répondent rien. Vous pouvez toujours vérifier que l'objectif de l'étape en cours est atteint en ré-exécutant la commande fournie. (par exemple: `git version` affichera le numéro de version après que vous ayez installé `git` et redémarré votre terminal)
