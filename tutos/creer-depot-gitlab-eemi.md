@@ -22,6 +22,11 @@ Le but est de retrouver ce fichier dans la page du dépôt sur GitLab, ainsi que
 - Certaines commandes ne répondent rien. Vous pouvez toujours vérifier que l'objectif de l'étape en cours est atteint en ré-exécutant la commande fournie. (par exemple: `git version` affichera le numéro de version après que vous ayez installé `git` et redémarré votre terminal)
 - Bref, lisez attentivement chaque étape du début à la fin, et faites l'effort de comprendre ce que vous faites.
 
+Autres infos qui pourraient vous aider si vous êtes bloqué(e):
+
+- Si jamais vous ne reconnaissez plus l'invite de commandes de votre terminal et/ou que vous n'arrivez plus à exécuter des commandes, pressez les touches `Ctrl-C` pour revenir à l'invite de commandes.
+- Si jamais vous êtes bloqué(e) dans l'editeur de texte `vi`, tapez la séquence de touches suivante pour quitter et revenir à l'invite de commandes.
+
 ### Étapes
 
 À suivre une par une:
