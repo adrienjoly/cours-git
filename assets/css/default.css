@@ -1,0 +1,19 @@
+a {
+  color: #0091BE;
+}
+
+.clear {
+  clear:both;
+}
+
+iframe {
+  width: 100%;
+}
+
+/* top image */
+
+.avatar {
+  float: right;
+  width: 42px;
+  border-radius: 6px;
+}
