@@ -34,20 +34,18 @@ L'objectif de cet exercice est d'apporter votre contribution à un projet Open S
 
 <!--
 
-Spreadsheet utilisé pour évaluer les étudiants sur la base de leur PR: https://docs.google.com/spreadsheets/d/1GKUDq4HcVPyqLC1Zg_g8Um5dV_PABJGF1D-7NKOrmOg/edit#gid=0
+Spreadsheet utilisé pour évaluer les étudiants des classes 1-4 sur la base de leur PR: https://docs.google.com/spreadsheets/d/1GKUDq4HcVPyqLC1Zg_g8Um5dV_PABJGF1D-7NKOrmOg/edit#gid=0
 
-Critères (12):
-- Classroom: 1 point si l'URL de la pull request a été envoyé sur classroom. 0,5 si retard.
-- git email: 1 point si l'adresse email EEMI de l'étudiant(e) a été trouvée dans au moins 1 commit
-- clean commit: 1 points si le(s) message(s) de commit est/sont clair(s)
-- good desc: 0,5 point si l'objectif de la pull request est clairement formulé en description + 0,5 point si la demande de fusion est formulée clairement et respectueusement
-- git howto: 1 point si la mise en oeuvre est expliquée clairement et précisément.
-- valid code: 1 point si le code HTML est 100% valide, sans erreur
-- concise code: 1 point si la PR n'ajoute que le code nécéssaire sans impacter le reste du code.
-- clean code: 1 point si le code de la PR est bien intenté et lisible.
-- pro content: 1 point si la fiche étudiant(e) est écrite de manière professionelle, sans fautes d'orthographes.
-- image: 1 point si la photo de l'étudiant(e) est inclue dans la PR	img
-- naming: 1 point si le fichier et sa référence dans le code html respecte bien les conventions de nommage fournies dans l'énoncé.
-- image 128x: 1 point si l'image a bien été retaillée aux dimensions 128x128 pixels.
+Critères utilisés pour classe fast track 2018-2019:
+- shipped: 1 point si PR soumise à temps + 1 point si URL fournie sur classroom
+- clean commit: 2 points pour clarté des messages de commit
+- good desc: 1 point pour formulation de l'objectif de PR dans la description + 1 point pour courtoisie et bonne orthographe
+- git howto: 2 points pour mise en oeuvre est expliquée clairement et précisément en description de PR.
+- valid code: 2 points pour code HTML 100% valide et sans erreur
+- concise code: 2 points si PR n'ajoute que le code nécéssaire sans impacter le reste du code.
+- clean code: 2 points pour code bien intenté et lisible.
+- pro content: 2 points si la fiche étudiant(e) est écrite de manière professionelle, sans fautes d'orthographes.
+- image: 1 point pour présence de photo dans PR + 1 point si bien retaillée aux dimensions 128x128 pixels
+- img naming: 2 points pour respect convention de nommage de la photo + référence correcte du fichier dans le code html
 
 -->
