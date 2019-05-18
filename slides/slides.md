@@ -3,7 +3,7 @@ class: center, middle
 ![Logo git](../logo.png)
 
 # Outils: `git`
-# EEMI (2018)
+# EEMI (2019)
 ## [adrienjoly.com/cours-git](https://adrienjoly.com/cours-git/)
 
 <!-- forked from https://github.com/adrienjoly/cours-javascript/tree/gh-pages/M -->
@@ -21,19 +21,15 @@ Application: ajouter sa photo à un trombi web.
 
 ---
 class: dbl-size
-# Programme - Partie 1
+## Partie 1 - terminologie, flot, commandes de base
 
-- Introduction: terminologie, flot, commandes de base
-- TP: [Créer un dépôt git sur gitlab de l'EEMI](../tutos/creer-depot-gitlab-eemi.html)
-- TP: [Collaborer sur un dépôt gitlab](../tutos/collaborer-sur-un-depot-gitlab.html)
+- TD: [Créer un dépôt git sur gitlab de l'EEMI](../tutos/creer-depot-gitlab-eemi.html)
+- TD: [Collaborer sur un dépôt gitlab](../tutos/collaborer-sur-un-depot-gitlab.html)
 
----
-class: dbl-size
-# Programme - Partie 2
+## Partie 2 - contribuer à un projet git
 
-- Cours: collaboration avec git
-- TP: [Régler un conflit de fusion](../tutos/conflit-de-fusion)
-- TP: [Contribuer à un projet open source sur GitHub](../tutos/contribution-open-source)
+- TD: [Régler un conflit de fusion](../tutos/conflit-de-fusion)
+- TD: [Contribuer à un projet open source sur GitHub](../tutos/contribution-open-source)
 
 
 ---
@@ -86,12 +82,6 @@ class: dbl-size
 
 ---
 class: dbl-size
-# Modèle de git: branches et commits
-
-.center[![git master branches](./img/master-and-branches.png)]
-
----
-class: dbl-size
 # Terminologie git
 
 - **Repository** (dépôt)
@@ -109,7 +99,16 @@ class: dbl-size
 - **Merge** (fusion): intégrer les mises à jour d'une branche dans une autre
 
 ---
-background-image: url(./img/git-local-remotes.png)
+class: dbl-size
+# Modèle de git: branches et commits
+
+.center[![git master branches](./img/master-and-branches.png)]
+
+---
+class: dbl-size
+# Séquence d'usage des commandes
+
+.wide[![Diagramme de Sequence](./img/git-command-sequence.jpg)]
 
 ---
 class: dbl-size
@@ -160,6 +159,18 @@ class: dbl-size, center, middle
 
 ---
 class: dbl-size
+# Conflit de fusion
+
+.center[![git master branches](./img/master-and-branches.png)]
+
+???
+
+Un conflit intervient lorsque la même partie d'un même fichier a été modifiée par deux branches en cours de fusion.
+
+=> Il faut aider `git` à résoudre ce conflit, en décidant quelle doit contenir la version finale du fichier.
+
+---
+class: dbl-size
 # Commandes git 2/2
 
 - `git log`
@@ -177,18 +188,6 @@ class: dbl-size
 - `git merge`: fusionner une branche dans une autre
 
 ---
-class: dbl-size
-# Conflit de fusion
-
-.center[![git master branches](./img/master-and-branches.png)]
-
-???
-
-Un conflit intervient lorsque la même partie d'un même fichier a été modifiée par deux branches en cours de fusion.
-
-=> Il faut aider `git` à résoudre ce conflit, en décidant quelle doit contenir la version finale du fichier.
-
----
 class: dbl-size, center, middle
 
 # Exercice
@@ -199,15 +198,9 @@ class: dbl-size
 # Découverte des projets Open Source
 
 - But: Contribuer à un projet sur GitHub
-- Licences
 - Exemples de projets
+- Licences
 - Workflow de collaboration: GitHub Flow
-
----
-class: dbl-size
-# Licences
-
-.center[![licenses](./img/licenses.jpg)]
 
 ---
 class: dbl-size
@@ -218,6 +211,12 @@ class: dbl-size
 - [github.com/Microsoft/vscode](https://github.com/Microsoft/vscode)
 - [github.com/steeve/france.code-civil](https://github.com/steeve/france.code-civil)
 - [github.com/explore](https://github.com/explore)
+
+---
+class: dbl-size
+# Licences
+
+.center[![licenses](./img/licenses.jpg)]
 
 ---
 class: dbl-size
