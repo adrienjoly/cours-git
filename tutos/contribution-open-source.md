@@ -32,6 +32,18 @@ L'objectif de cet exercice est d'apporter votre contribution à un projet Open S
 1. Soumettez une demande de fusion de vos modifications dans le projet d'origine: [github.com/eemi-aj/trombi](https://github.com/eemi-aj/trombi), via la page "pull requests", ou la page de votre dépôt dérivé.
 1. Rédigez la description de la demande de fusion comme si c'était un email qui m'était destiné, pour me demander de bien vouloir intégrer les modifications que vous suggérez. Gardez en tête que cette demande de fusion sera visible publiquement.
 
+## Points à vérifier avant de soumettre / valider la PR
+
+- les messages de commit présent clairement les changements apportés et/ou la raison de ces changements.
+- la description de la PR explique quels changements elle apporte, et invite courtoisement à la considération du reviewer en vue de sa fusion.
+- la description de la PR décrit précisément comment cette PR a été élaborée, en incluant les commandes `git` utilisées.
+- le code HTML est valide et sans erreur. (selon le W3C)
+- la PR n'ajoute que le code nécessaire, et n'impacte pas le reste du code.
+- le code ajouté est lisible et intenté de manière homogène avec le reste du code.
+- la fiche étudiant(e) est écrite de manière professionelle, sans fautes d'orthographe.
+- la PR inclue bien la photo retaillée aux dimensions 128x128 pixels.
+- le nom du fichier photo respecte l'énoncé, et est correctement référencé dans le code html.
+
 <!--
 
 Spreadsheet utilisé pour évaluer les étudiants des classes 1-4 sur la base de leur PR: https://docs.google.com/spreadsheets/d/1GKUDq4HcVPyqLC1Zg_g8Um5dV_PABJGF1D-7NKOrmOg/edit#gid=0
@@ -42,9 +54,9 @@ Critères utilisés pour classe fast track 2018-2019:
 - good desc: 1 point pour formulation de l'objectif de PR dans la description + 1 point pour courtoisie et bonne orthographe
 - git howto: 2 points pour mise en oeuvre est expliquée clairement et précisément en description de PR.
 - valid code: 2 points pour code HTML 100% valide et sans erreur
-- concise code: 2 points si PR n'ajoute que le code nécéssaire sans impacter le reste du code.
+- concise code: 2 points si PR n'ajoute que le code nécessaire sans impacter le reste du code.
 - clean code: 2 points pour code bien intenté et lisible.
-- pro content: 2 points si la fiche étudiant(e) est écrite de manière professionelle, sans fautes d'orthographes.
+- pro content: 2 points si la fiche étudiant(e) est écrite de manière professionelle, sans fautes d'orthographe.
 - image: 1 point pour présence de photo dans PR + 1 point si bien retaillée aux dimensions 128x128 pixels
 - img naming: 2 points pour respect convention de nommage de la photo + référence correcte du fichier dans le code html
 
