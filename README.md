@@ -63,6 +63,7 @@ Pour aller plus loin avec `git` et le monde open source:
 
 #### Ressources
 
+- [CS Visualized: Useful Git Commands](https://dev.to/lydiahallie/cs-visualized-useful-git-commands-37p1)
 - Exerciseur interactif (pour pratiquer): [Apprenez Git Branching](https://learngitbranching.js.org/)
 - Git: [Rudiments de Git](https://git-scm.com/book/fr/v1/D%C3%A9marrage-rapide-Rudiments-de-Git)
 - OpenClassrooms: [Gérez votre code avec Git et GitHub](https://openclassrooms.com/fr/courses/2342361-gerez-votre-code-avec-git-et-github) (videos)
